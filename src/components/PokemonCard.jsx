@@ -4,7 +4,7 @@ const PokemonCard = ({poke}) => {
   return (
     <div
       key={poke.id}
-      className="bg-white rounded-2xl shadow-lg p-4 flex flex-col items-center transition hover:scale-105 duration-200"
+      className="bg-yellow-100/10 rounded-2xl shadow-lg p-4 flex flex-col items-center transition hover:scale-105 duration-200"
     >
       <span className="text-sm text-gray-500 self-start"># {poke.id}</span>
 

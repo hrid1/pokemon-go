@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="text-center p-4 text-3xl font-bold text-teal-600/90">
+    <header className="text-center p-2 mb-2 text-3xl font-bold text-teal-500">
       Pokemon Explorer
     </header>
   );
